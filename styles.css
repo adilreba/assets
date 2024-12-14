@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  overflow: hidden;
+}
+
+.shape {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 0%;
+  position: absolute;
+  transition: all 2s ease-in-out; 
+}
